@@ -1,0 +1,21 @@
+.main{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 40px;
+}
+.image-error{
+    color: red;
+    font-size: 18px;
+    padding: 5px;
+    position: absolute;
+}
+
+@media (max-width: 769px) {
+    .main{
+        grid-template-columns: 1fr;
+        align-items: center;
+        justify-content: center;
+    }
+}

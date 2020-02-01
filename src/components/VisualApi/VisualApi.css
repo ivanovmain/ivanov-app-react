@@ -1,0 +1,10 @@
+.api-wrapper{
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.error-api{
+  color: #ff6600;
+  font-size: 2.5rem;
+}
