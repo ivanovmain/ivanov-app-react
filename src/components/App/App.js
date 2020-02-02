@@ -7,8 +7,9 @@ import { BrowserRouter as Router } from 'react-router-dom';
 import { ApolloProvider } from 'react-apollo';
 import ApolloClient from 'apollo-boost';
 
-
-const TOKEN = '8068ebb8817938a57033097a5f6eb081a0277f2c';
+//Please add your api github Personal access token
+//https://github.com/settings/tokens 
+const TOKEN = 'YOUR TOKEN';
 
 const client = new ApolloClient({
 	uri: 'https://api.github.com/graphql',
