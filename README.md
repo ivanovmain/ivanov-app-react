@@ -1,7 +1,8 @@
-##Deployed project in address
+# Deployed project in address
+
 >https://ivanovmain.github.io/react-app-ivv/
->
-##Run project
+
+## Run project
 Clone project and use
 ### `npm install`
 or
