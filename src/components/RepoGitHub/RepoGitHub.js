@@ -38,7 +38,8 @@ const RepoGitHub = (props) => {
             <Spinner/>;
           </div>
         );
-       } 
+       }
+       if (errors === undefined && data === undefined) return <h2 className='error-api'>Error api token</h2>; 
        if (errors) return <h2 className='error-api'>Error sending fetch request</h2>;       
        if(data.search.edges.length === 0){
          return(
