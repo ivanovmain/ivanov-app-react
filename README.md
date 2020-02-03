@@ -43,4 +43,4 @@ It correctly bundles React in production mode and optimizes the build for the be
    
    2. Visual API.
    
-   On this page, you can enter the github user login and get a list of the latest repositories. Im used graphql api
+   On this page, you can enter the github repository name and get a list of the latest repositories. Im used graphql api
